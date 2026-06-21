@@ -1,3 +1,32 @@
+
+.club-pill {
+  display: flex;
+  align-items: center;
+  gap: 2px; /* controls spacing between logo and text */
+  text-decoration: none;
+}
+
+.club-pill img {
+  width: 40px;
+  height: auto;
+}
+
+.club-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.club-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+.club-subtitle {
+  font-size: 12px;
+  opacity: 0.7;
+}
 :root{
   --bg:#07060d;
   --bg-2:#0d0a16;
